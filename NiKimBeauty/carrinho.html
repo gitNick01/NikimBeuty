@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Carrinho - NiKim Beauty</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Great+Vibes&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="page-wrapper bg-carrinho">
+        
+        
+        <header class="main-header">
+            <div class="header-logo">
+               
+                <img src="/img/logoNK.png" alt="Logo NiKim Beauty">
+            </div>
+            <div class="header-center">
+                <div class="top-benefits">
+                    <div class="benefit-item">
+                       
+                        <span class="icon-placeholder"><img src="/img/freteicone.png" alt="Ícone frete"></span>
+                        <span>FRETE GRATIS NAS COMPRAS ACIMA DE R$199</span>
+                    </div>
+                    <span class="divider">|</span>
+                    <div class="benefit-item">
+                        
+                        <span class="icon-placeholder"><img src="/img/presenteicone.png" alt="Ícone brinde"></span>
+                        <span>GANHE BRINDES EXCLUSIVOS</span>
+                    </div>
+                </div>
+                <nav class="main-nav">
+                    <ul>
+                        <li><a href="#">INÍCIO</a></li>
+                        <li><a href="#">MAQUIAGEM</a></li>
+                        <li><a href="#">PERFUMES</a></li>
+                        <li><a href="#">SKINCARE</a></li>
+                        <li><a href="#">KITS</a></li>
+                        <li><a href="contato.html">CONTATO</a></li>
+                        <li><a href="sobre.html">SOBRE NÓS</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="header-right-column">
+                <div class="header-actions">
+                    <a href="cadastro-etapa1.html" class="action-icon header-action-button">Cadastro</a>
+                    <a href="carrinho.html" class="action-icon header-action-button">Carrinho</a>
+                </div>
+                <div class="search-pill">
+                    <input type="text" placeholder="Buscar produtos...">
+                    
+                </div>
+            </div>
+        </header>
+
+
+        <main class="cart-main">
+            <div class="section-heading-ornament">
+                <h1>MEU CARRINHO</h1>
+                <div class="ornament-line">
+                    <span>&longrightarrow;</span>
+                    <span class="heart">&hearts;</span>
+                    <span>&longleftarrow;</span>
+                </div>
+            </div>
+
+            <div class="cart-grid">
+              
+                <div class="cart-left">
+                    <div class="cart-box">
+                        <div class="cart-table-header">
+                            <span>Produto</span>
+                            <span>Preço</span>
+                            <span>Quantidade</span>
+                            <span>Total</span>
+                        </div>
+
+                      
+                        <div class="cart-item">
+                            <div class="product-info">
+                               
+                                <img src="/img/perfume.png" alt="Perfume rosé essence">
+                                <div>
+                                    <h3>Perfume rosé essence</h3>
+                                    <p>Eau de parfum<br>100ml</p>
+                                    <button class="btn-remove">Remover</button>
+                                </div>
+                            </div>
+                            <div class="item-price">129,90</div>
+                            <div class="qty-control">
+                                <button>-</button>
+                                <span>1</span>
+                                <button>+</button>
+                            </div>
+                            <div class="item-total">129,90</div>
+                        </div>
+
+                       
+                        <div class="cart-item">
+                            <div class="product-info">
+                                
+                                <img src="/img/serum.png" alt="Sérum Facil Glow">
+                                <div>
+                                    <h3>Sérum Facil Glow</h3>
+                                    <p>NiKim Beauty<br>50ml</p>
+                                    <button class="btn-remove">[Lixeira] Remover</button>
+                                </div>
+                            </div>
+                            <div class="item-price">89.90</div>
+                            <div class="qty-control">
+                                <button>-</button>
+                                <span>1</span>
+                                <button>+</button>
+                            </div>
+                            <div class="item-total">89.90</div>
+                        </div>
+                    </div>
+
+                    <a href="#" class="btn-pill btn-continue">&larr; CONTINUAR COMPRANDO</a>
+                </div>
+
+    
+                <div class="cart-right">
+                    <div class="summary-box">
+                        <h2>RESUMO DO PEDIDO</h2>
+                        <div class="ornament-line small">
+                            <span>&longrightarrow;</span>
+                            <span class="heart">&hearts;</span>
+                            <span>&longleftarrow;</span>
+                        </div>
+
+                        <div class="summary-row">
+                            <span>Subtotal</span>
+                            <strong>R$ 219,90</strong>
+                        </div>
+                        <div class="summary-row">
+                            <span>Frete</span>
+                            <strong>Grátis</strong>
+                        </div>
+
+                        <div class="summary-total">
+                            <span>TOTAL</span>
+                            <strong>R$ 219,90</strong>
+                        </div>
+
+                        <button class="btn-pill btn-checkout">FINALIZAR COMPRA &rarr;</button>
+                    </div>
+                    <p class="secure-note">Compra 100% segura</p>
+                </div>
+            </div>
+
+          
+            <section class="cart-badges-bar">
+                <div class="badge-box">
+                    
+                    <span class="badge-icon"><img src="/img/fretecarrinho.png" alt="Ícone frete"></span>
+                    <div><strong>FRETE GRÁTIS</strong><small>EM COMPRAS ACIMA DE 199,90</small></div>
+                </div>
+                <div class="badge-box">
+                  
+                    <span class="badge-icon"><img src="/img/escudo.png" alt="Ícone escudo"></span>
+                    <div><strong>COMPRA SEGURA</strong><small>SEUS DADOS PROTEGIDO COM SEGURANÇA</small></div>
+                </div>
+                <div class="badge-box">
+                    
+                    <span class="badge-icon"><img src="/img/cartão.png" alt="Ícone cartão"></span>
+                    <div><strong>PARCELA EM ATÉ 6X</strong><small>NO CARTÃO DE CRÉDITO SEM JUROS</small></div>
+                </div>
+                <div class="badge-box">
+                   
+                    <span class="badge-icon"><img src="/img/presentecarrinho.png" alt="Ícone presente"></span>
+                    <div><strong>EMBALAGEM ESPECIAL</strong><small>TODO PEDIDO COM MUITO AMOR E CUIDADO</small></div>
+                </div>
+            </section>
+        </main>
+
+       
+        <footer class="main-footer">
+            <div class="footer-slogan">Realçando sua beleza com delicadeza</div>
+            <div class="footer-divider"><span class="line"></span><span class="heart">&hearts;</span><span class="line"></span></div>
+            <div class="footer-newsletter">
+                <label for="newsletter-email">RECEBA NOVIDADE E OFERTAS</label>
+                <form class="newsletter-form">
+                    <input type="email" id="newsletter-email" placeholder="Seu melhor e-mail" required>
+                    <button type="submit" class="btn-pill">CADASTRAR</button>
+                </form>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
